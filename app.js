@@ -28,4 +28,4 @@ console.log(fromEuroToDollar(2));  // ≈ 2.14 USD
 console.log(fromYenToPound(2));    // ≈ 0.011 GBP
 
 
-module.exports = { sum, fromDollarToYen, fromEuroToDollar, fromYenToPound };
+module.exports = { sum, fromDollarToYen, fromYenToPound };
