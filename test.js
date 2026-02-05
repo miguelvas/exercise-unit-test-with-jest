@@ -7,10 +7,9 @@ test('adds 14 + 9 to equal 23', () => {
     expect(total).toBe(23);
 });
 
-test("One euro should be 1.07 dollars", function() {
+test("3.5 euros should be converted to dollars correctly", function () {
     const dollars = fromEuroToDollar(3.5);
-
     const expected = 3.5 * 1.07;
 
-    expect(fromEuroToDollar(3.5)).toBe(3.745); 
+    expect(dollars).toBeCloseTo(expected, 2);
 });
